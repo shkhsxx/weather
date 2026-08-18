@@ -20,6 +20,7 @@ export interface Landmark {
 
 export const LANDMARKS: Landmark[] = [
   { id: "gyeongbokgung", nameKo: "경복궁", nameEn: "Gyeongbokgung Palace", city: "서울", country: "대한민국", countryCode: "KR", region: "asia", lat: 37.5796, lon: 126.977 },
+  { id: "n-seoul-tower", nameKo: "N서울타워", nameEn: "N Seoul Tower", city: "서울", country: "대한민국", countryCode: "KR", region: "asia", lat: 37.5512, lon: 126.9882 },
   { id: "tokyo-tower", nameKo: "도쿄 타워", nameEn: "Tokyo Tower", city: "도쿄", country: "일본", countryCode: "JP", region: "asia", lat: 35.6586, lon: 139.7454 },
   { id: "great-wall", nameKo: "만리장성 (팔달령)", nameEn: "Great Wall (Badaling)", city: "베이징", country: "중국", countryCode: "CN", region: "asia", lat: 40.4319, lon: 116.5704 },
   { id: "taj-mahal", nameKo: "타지마할", nameEn: "Taj Mahal", city: "아그라", country: "인도", countryCode: "IN", region: "asia", lat: 27.1751, lon: 78.0421 },
