@@ -1,0 +1,66 @@
+:root {
+  --bp-sm: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1440px;
+
+  --fs-caption: clamp(11px, 0.5vw + 9.4px, 13px);
+  --fs-body: clamp(14px, 0.5vw + 12.4px, 16px);
+  --fs-title: clamp(18px, 1.1vw + 14.5px, 24px);
+  --fs-temp-lg: clamp(48px, 5.4vw + 30.7px, 108px);
+  --fs-clock: clamp(28px, 2.5vw + 20px, 56px);
+
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --gutter: clamp(16px, 4vw, 40px);
+
+  --color-text: #f5f7fb;
+  --color-text-dim: rgba(245, 247, 251, 0.72);
+  --color-panel-bg: rgba(12, 16, 28, 0.72);
+  --color-panel-border: rgba(255, 255, 255, 0.12);
+  --color-accent: #ffd27a;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+body {
+  color: var(--color-text);
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: var(--fs-body);
+  background: #05060a;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
